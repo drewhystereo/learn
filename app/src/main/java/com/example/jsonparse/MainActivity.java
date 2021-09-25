@@ -54,6 +54,7 @@ public class MainActivity extends AppCompatActivity {
                     txtName.setText(name);
                     txtAge.setText(age);
                     txtCar.setText(car);
+                    Toast.makeText(getApplicationContext(), "parsed successfully", Toast.LENGTH_SHORT).show();
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
